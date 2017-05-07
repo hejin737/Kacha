@@ -10,17 +10,21 @@ export default new Router({
             redirect: '/login'
         },
         {
-            path: '/readme',
+            path: '/index',
             component: resolve => require(['../components/common/Home.vue'], resolve),
             children:[
 
                 {
                     path: '/',
-                    component: resolve => require(['../components/page/Readme.vue'], resolve)
+                    component: resolve => require(['../components/page/index.vue'], resolve)
                 },
                 {
                     path: '/Carousel',
                     component: resolve => require(['../components/page/Carousel.vue'], resolve)
+                },
+                {
+                    path: '/Self',
+                    component: resolve => require(['../components/page/Self.vue'], resolve)
                 },
                 {
                     path: '/basetable',

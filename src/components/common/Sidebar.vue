@@ -3,25 +3,25 @@
 
         <el-menu :default-active="onRoutes" class="el-menu-demo" mode="horizontal" theme="dark" unique-opened router>
             <div class="logo">KACHA摄影</div>
-            <el-menu-item index="readme">
+            <el-menu-item index="index">
                 <i class="el-icon-setting"></i>首页
             </el-menu-item>
             <el-submenu index="2">
                 <template slot="title"><i class="el-icon-menu"></i>找摄影师</template>
-                <el-menu-item index="Carousel">基础表格</el-menu-item>
-                <el-menu-item index="vuetable">Vue表格组件</el-menu-item>
+                <el-menu-item index="Carousel">摄影师</el-menu-item>
+                <el-menu-item index="vuetable">套餐</el-menu-item>
             </el-submenu>
             <el-submenu index="3">
                 <template slot="title"><i class="el-icon-date"></i>找模特</template>
-                <el-menu-item index="baseform">模特</el-menu-item>
-                <el-menu-item index="vueeditor">订单</el-menu-item>
-                <el-menu-item index="markdown">markdown</el-menu-item>
-                <el-menu-item index="upload">文件上传</el-menu-item>
+                <el-menu-item index="Carousel">模特</el-menu-item>
+                <el-menu-item index="vuetable">订单</el-menu-item>
+                <!-- <el-menu-item index="markdown">markdown</el-menu-item>
+                <el-menu-item index="upload">文件上传</el-menu-item> -->
             </el-submenu>
             <el-submenu index="4">
                 <template slot="title"><i class="el-icon-star-on"></i>亲爱的{{username}}用户</template>
-                <el-menu-item index="BaseTable">我的资料</el-menu-item>
-                <el-menu-item index="vuetable">我的订单</el-menu-item>
+                <el-menu-item index="Self">我的资料</el-menu-item>
+                <el-menu-item index="BaseTable">我的订单</el-menu-item>
                 <el-menu-item index="baseform">发布订单</el-menu-item>
                 <el-menu-item index="Login" v-on:click="handleCommand">退出登录</el-menu-item>
             </el-submenu>
@@ -69,6 +69,9 @@
 </script>
 
 <style scoped>
+  .el-menu--dark {
+    background-color: #272c2f;
+  }
     .sidebar{
         display: block;
         /*position: absolute;*/

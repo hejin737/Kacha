@@ -1,4 +1,7 @@
 <template>
+  <div class="white-panel">
+
+
     <div class="table">
         <div class="crumbs">
             <el-breadcrumb separator="/">
@@ -6,14 +9,15 @@
                 <el-breadcrumb-item>Vue表格组件</el-breadcrumb-item>
             </el-breadcrumb>
         </div>
-        <div class="plugins-tips">
+        <!-- <div class="plugins-tips">
             vue-datasource：一个用于动态创建表格的vue.js服务端组件。
             访问地址：<a href="https://github.com/coderdiaz/vue-datasource" target="_blank">vue-datasource</a>
-        </div>
+        </div> -->
         <datasource language="en" :table-data="getData" :columns="columns" :pagination="information.pagination"
                 :actions="actions"
                 v-on:change="changePage"
                 v-on:searching="onSearch"></datasource>
+    </div>
     </div>
 </template>
 

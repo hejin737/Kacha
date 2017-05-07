@@ -1,5 +1,6 @@
 <template>
-    <div>
+  <div class="panel">
+    <div class="white-panel">
         <div class="crumbs">
             <el-breadcrumb separator="/">
                 <el-breadcrumb-item><i class="el-icon-date"></i> 订单</el-breadcrumb-item>
@@ -62,6 +63,7 @@
         </div>
 
     </div>
+  </div>
 </template>
 
 <script>

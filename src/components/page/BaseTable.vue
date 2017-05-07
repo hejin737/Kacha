@@ -1,4 +1,5 @@
 <template>
+  <div class="white-panel">
     <div class="table">
         <div class="crumbs">
             <el-breadcrumb separator="/">
@@ -18,7 +19,7 @@
                 <template scope="scope">
                     <img :src="scope.row.logo">
                 </template>
-                
+
             </el-table-column>
             <el-table-column label="操作" width="180">
                 <template scope="scope">
@@ -37,6 +38,7 @@
             </el-pagination>
         </div>
     </div>
+  </div>
 </template>
 
 <script>
