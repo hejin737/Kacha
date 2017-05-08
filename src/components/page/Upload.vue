@@ -30,18 +30,18 @@
             访问地址：<a href="https://github.com/Vanthink-UED/vue-core-image-upload" target="_blank">Vue-Core-Image-Upload</a>
         </div>
         <img class="pre-img" :src="src" alt="">
-        <vue-core-image-upload :class="['pure-button','pure-button-primary','js-btn-crop']"
+        <!-- <vue-core-image-upload :class="['pure-button','pure-button-primary','js-btn-crop']"
                                :crop="true"
                                text="上传图片"
                                url="/api/posts/"
                                extensions="png,gif,jpeg,jpg"
                                @:imageuploaded="imageuploaded"
-                               @:errorhandle="handleError"></vue-core-image-upload>
+                               @:errorhandle="handleError"></vue-core-image-upload> -->
     </div>
 </template>
 
 <script>
-    import VueCoreImageUpload  from 'vue-core-image-upload';
+    // import VueCoreImageUpload  from 'vue-core-image-upload';
     export default {
         data: function(){
             return {
@@ -50,7 +50,7 @@
             }
         },
         components: {
-                VueCoreImageUpload
+                // VueCoreImageUpload
         },
         methods:{
             imageuploaded(res) {

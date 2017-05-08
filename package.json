@@ -1,5 +1,5 @@
 {
-  "name": "KacaPhotography",
+  "name": "Kacha",
   "version": "1.0.0",
   "description": "Born of project!",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hejin737/KacaPhotography.git"
+    "url": "git+https://github.com/hejin737/Kacha.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hejin737/KacaPhotography/issues"
+    "url": "https://github.com/hejin737/Kacha/issues"
   },
-  "homepage": "https://github.com/hejin737/KacaPhotography#readme",
+  "homepage": "https://github.com/hejin737/Kacha#readme",
   "dependencies": {
     "axios": "^0.15.3",
     "babel-polyfill": "^6.23.0",
