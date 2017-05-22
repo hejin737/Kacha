@@ -1,14 +1,14 @@
 <template>
   <div class="panel">
-  <div class="block">
-    <!-- <span class="demonstration">默认 Hover 指示器触发</span> -->
-    <el-carousel height="150px">
+   <!--<div class="block">
+    <span class="demonstration">默认 Hover 指示器触发</span> 
+    <el-carousel height="250px">
       <el-carousel-item v-for="item in 4" :key="item">
         <h3>{{ item }}</h3>
       </el-carousel-item>
-    </el-carousel>
-  </div>
-  <div class="white-panel">
+    </el-carousel> 
+  </div> -->
+  <div class=npm"white-panel">
   <el-row >
   <el-col  v-for="(o, index) in 10" :key="o" :offset="index > 0 ? 2 : 0">
     <el-card :body-style="{ padding: '0px' }">
