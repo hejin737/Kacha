@@ -3,7 +3,7 @@
 
         <el-menu :default-active="onRoutes" class="el-menu-demo" mode="horizontal" theme="dark" unique-opened router>
             <div class="logo">
-            <img src="../../../static/img/u22.png" class="logo_img">KACHA摄影</div>
+            <img src="../../../static/img/index/u22.png" class="logo_img">KACHA摄影</div>
             <el-menu-item index="index">
                 <i class="el-icon-setting"></i>首页
             </el-menu-item>
@@ -21,7 +21,7 @@
             </el-submenu>
             <el-submenu index="4">
                 <template slot="title"><i class="el-icon-star-on"></i>Hi, {{username}}</template>
-                <el-menu-item index="Self">我的资料</el-menu-item>
+                <el-menu-item index="Self">个人主页</el-menu-item>
                 <el-menu-item index="BaseTable">我的订单</el-menu-item>
                 <el-menu-item index="baseform">发布订单</el-menu-item>
                 <!--<el-menu-item index="Login" v-on:click="handleCommand">退出登录</el-menu-item> -->
@@ -74,7 +74,7 @@
 
 <style scoped>
   .el-menu-item{
- 
+
   }
   .el-menu--dark {
     background-color: #272c2f;
